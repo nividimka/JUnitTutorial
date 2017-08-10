@@ -52,7 +52,7 @@ public class TestMethods {
 
     @Test(timeout = 100)
     public void testPerf() {
-        Assume.assumeFalse(System.getProperty("os.name").contains("Windows"));
+//        Assume.assumeFalse(System.getProperty("os.name").contains("Windows"));
         int x = 0;
         for (int i = 0; i < 1000; i++) {
             for (int j = 0; j < 100; j++) {
