@@ -31,4 +31,10 @@ public class MyClass {
     public Double getObj() {
         return obj;
     }
+    public int getSqrtObj(int square){
+        if(square<0){
+            throw new IllegalArgumentException("Negative value is not allowed");
+        }
+        return (int) Math.sqrt(square);
+    }
 }

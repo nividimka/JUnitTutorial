@@ -31,6 +31,5 @@ public class ParametrizedTestUsingConstructor {
     public void testMultiplication(){
         MyClass tester = new MyClass();
         assertEquals("mult result",result,m1*m2);
-
     }
 }
